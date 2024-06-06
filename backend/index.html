@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <% 
+        arr=XQuery ("for $elem in collaborators return $elem");
+        alert(arr);
+
+        for(i in arr)
+        {
+    %>
+        <p><%=i.fullname%></p>        
+    <%
+        }
+    %>
+     
+</body>
+</html>

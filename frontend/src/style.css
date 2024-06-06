@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0; 
+    font-family: "Proxima Nova", sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100%;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search-field {
+    display: flex;
+    align-items: center;
+    margin-top: 64px;
+    width: 87.5%;
+    height: 48px;
+    border: 1px solid #D4DEFE;
+    border-radius: 24px;
+}
+
+.search-field:focus-within {
+    border-color: #432eab;
+}
+
+.search-bar {
+    border: none;
+    border-radius: 24px;
+    width: 94%;
+    height: 100%;
+    font-size: 24px;
+    padding-left: 2%;
+}
+
+.search-bar:focus {
+    outline: none;
+}
+
+.search-button {
+    background-color: #fff;
+    padding-right: 20px;
+    width: 24px;
+    height: 24px;
+    border: none;
+    border-radius: 24px;
+    background-image: url("../public/Search.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 24px;
+    width: 87.5%;
+    padding-top: 65px;
+}
+
+.card {
+    box-shadow: 0 0 20px rgb(0 0 0 / 10%);
+    color: #262C40;
+    font-size: 16px;
+    border-radius: 16px;
+    width: 327px;
+    height: 274px;
+    padding: 24px 0 0 24px;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    height: 24px;
+    font-size: 14px;
+    color: #8189A3;
+}
+
+.contact:first-of-type {
+    margin-top: 24px;
+    margin-bottom: 14px;
+}
+
+.phone-img {
+    width: 14px;
+    height: 24px;
+}
+
+.email-img {
+    width: 24px;
+    height: 14px;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    margin-right: 14px;
+}
